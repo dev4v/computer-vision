@@ -7,7 +7,7 @@ import cv2.data
 
 st.title("eye detection using cascade classifer")
 
-# Load the Haar cascade once, at the top
+# Load the Haar cascade xml
 cascade_path = cv2.data.haarcascades + 'haarcascade_eye.xml'
 eye_cascade = cv2.CascadeClassifier(cascade_path)
 

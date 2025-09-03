@@ -35,7 +35,8 @@ if img_file is not None:
 
     #Convert back to RGB and display
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    st.image(image_rgb, caption="Detected eyes", use_column_width=True)
+    st.image(image_rgb, caption="Detected eyes", use_container_width=True)
+
 
 
 
